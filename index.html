@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Una guía clara y equilibrada sobre qué puede hacer la inteligencia artificial, qué riesgos plantea y cómo convivir con ella.">
+  <title>IA: una herramienta, muchas decisiones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="IA: una herramienta, muchas decisiones, inicio"><span class="brand-mark" aria-hidden="true">↗</span> Cuaderno digital <span class="brand-sep">/</span> Tecnología y sociedad</a>
+    <nav aria-label="Navegación principal"><a href="#como-funciona">Cómo funciona</a><a href="#balanza">Beneficios y riesgos</a><a href="#futuro">El futuro</a></nav>
+  </header>
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> UNA GUÍA PARA ENTENDERLA</p>
+        <h1>La inteligencia artificial ya está aquí.<br><em>¿Qué hacemos con ella?</em></h1>
+        <p class="intro">No es magia ni una mente humana. Es una tecnología que aprende patrones y puede ayudarnos a resolver tareas. El reto está en aprovecharla sin dejar de pensar, preguntar y decidir.</p>
+        <a class="text-link" href="#como-funciona">Explora la guía <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Ilustración abstracta: una red de puntos conecta datos, una persona y una computadora">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="sun"></div><div class="node node-a">01</div><div class="node node-b">✳</div><div class="node node-c">↗</div>
+        <div class="core"><span>IA</span><small>DATOS<br>+ REGLAS</small></div>
+        <div class="art-caption">Una herramienta aprende<br>del mundo que le mostramos.</div>
+      </div>
+      <div class="hero-foot"><span>LECTURA · 4 MIN</span><span>TECNOLOGÍA · SOCIEDAD</span><span>01 — 04</span></div>
+    </section>
+    <section class="section how" id="como-funciona">
+      <div class="section-index">01 <span>— ENTENDER</span></div>
+      <div class="section-content">
+        <h2>Aprender patrones,<br><em>no pensar como nosotros.</em></h2>
+        <p>La inteligencia artificial (IA) es un conjunto de técnicas que permite a un sistema reconocer patrones, hacer predicciones o generar contenido a partir de instrucciones y datos. No existe una sola definición universal, pero esta idea recoge lo esencial.<sup><a href="#fuente-oecd" aria-label="Fuente 1">[1]</a></sup></p>
+        <p>Por ejemplo, un modelo de lenguaje se entrena con grandes cantidades de texto para calcular qué palabra podría seguir a otra. Así redacta respuestas que parecen naturales. Pero no consulta necesariamente una “verdad” interior: puede producir información convincente y equivocada. Por eso conviene tratarlo como un asistente que necesita revisión.</p>
+        <div class="flow" aria-label="Diagrama: los datos entran en un modelo de IA y generan una respuesta que una persona debe revisar">
+          <div><span class="flow-no">01</span><b>Datos</b><small>Ejemplos e instrucciones</small></div><span class="flow-arrow" aria-hidden="true">→</span>
+          <div class="flow-model"><span class="flow-no">02</span><b>Modelo</b><small>Encuentra patrones</small></div><span class="flow-arrow" aria-hidden="true">→</span>
+          <div><span class="flow-no">03</span><b>Respuesta</b><small>La persona la comprueba</small></div>
+        </div>
+        <p class="diagram-note">Un esquema simplificado: cada sistema funciona de manera distinta.</p>
+      </div>
+    </section>
+    <section class="section balance" id="balanza">
+      <div class="section-index">02 <span>— PONER EN BALANZA</span></div>
+      <div class="section-content">
+        <h2>Amplifica capacidades.<br><em>Y también errores.</em></h2>
+        <div class="balance-grid">
+          <article class="balance-card benefit"><div class="card-top"><span class="card-icon">+</span><span>POSIBILIDADES</span></div><h3>Más tiempo para lo importante</h3><p>Una IA puede resumir apuntes, proponer preguntas para estudiar, traducir un borrador o ayudar a ordenar ideas. En salud, agricultura o accesibilidad, puede apoyar el análisis y acercar servicios. Si la uso para estudiar, la trataría como una tutora: pediría una explicación y luego comprobaría los conceptos con mis materiales.</p><div class="card-tag">ASISTIR · EXPLORAR · AHORRAR TIEMPO</div></article>
+          <article class="balance-card risk"><div class="card-top"><span class="card-icon">!</span><span>RESPONSABILIDADES</span></div><h3>¿Quién comprueba la respuesta?</h3><p>Los datos incompletos o sesgados pueden llevar a resultados injustos; una respuesta inventada puede parecer cierta. También hay riesgos para la privacidad si compartimos datos personales, y los deepfakes pueden facilitar engaños. Reuters informó de que Google recibió más de 250 reclamaciones relacionadas con material terrorista falso generado con IA.<sup><a href="#fuente-deepfake" aria-label="Fuente 2">[2]</a></sup></p><div class="card-tag">VERIFICAR · PROTEGER · PEDIR CUENTAS</div></article>
+        </div>
+        <aside class="rule"><span class="rule-mark">↗</span><p><b>Una regla sencilla:</b> cuanto más importante sea la decisión, menos debemos delegarla sin supervisión humana.</p><a href="#fuente-nist">Guía de gestión de riesgos · NIST [3]</a></aside>
+      </div>
+    </section>
+    <section class="section future" id="futuro">
+      <div class="section-index">03 <span>— MIRAR ADELANTE</span></div>
+      <div class="section-content">
+        <h2>El futuro se diseña.<br><em>No viene escrito.</em></h2>
+        <p>La IA podría ayudar a descubrir medicamentos, adaptar la educación y hacer más accesible la tecnología. También dependerá de centros de datos que necesitan electricidad y refrigeración. La Agencia Internacional de la Energía proyecta que el consumo eléctrico mundial de los centros de datos podría casi duplicarse entre 2025 y 2030; es una proyección, no una certeza.<sup><a href="#fuente-iea" aria-label="Fuente 4">[4]</a></sup></p>
+        <div class="future-callout"><div class="big-number">×2<small>aprox.</small></div><div><b>Una infraestructura que también cuenta</b><p>Más demanda exige planificar redes, fuentes de energía y capacidad de reserva. Los cortes no son un resultado inevitable de la IA, pero la dependencia de servicios digitales y la presión local sobre la red merecen atención.</p></div></div>
+        <p>Mi interpretación: el escenario más útil combina innovación con reglas claras, seguridad, alternativas cuando un servicio falla y personas responsables de revisar decisiones. No sabemos qué sistemas existirán dentro de diez años; sí podemos elegir cómo probarlos, quién responde por sus errores y qué tareas no queremos automatizar.</p>
+      </div>
+    </section>
+    <section class="section sources" id="fuentes">
+      <div class="section-index">04 <span>— SEGUIR LEYENDO</span></div>
+      <div class="section-content"><h2>Fuentes y <em>método.</em></h2>
+        <ol class="source-list">
+          <li id="fuente-oecd"><span>[1]</span><a href="https://oecd.ai/en/inside-artificial-intelligence" target="_blank" rel="noopener">OCDE — Cómo funciona la inteligencia artificial</a></li>
+          <li id="fuente-deepfake"><span>[2]</span><a href="https://www.reuters.com/technology/cybersecurity/google-reports-scale-complaints-about-ai-deepfake-terrorism-content-australian-2025-03-05/" target="_blank" rel="noopener">Reuters — Reclamaciones por contenido terrorista falso generado con IA (2025)</a></li>
+          <li id="fuente-nist"><span>[3]</span><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">NIST — Marco de gestión de riesgos de IA</a></li>
+          <li id="fuente-iea"><span>[4]</span><a href="https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary" target="_blank" rel="noopener">Agencia Internacional de la Energía — Energía e IA</a></li>
+        </ol>
+        <div class="process"><span class="process-label">CÓMO SE HIZO</span><p>Organicé la página como un recorrido: primero una explicación sencilla, luego una comparación entre usos y riesgos, y finalmente una mirada al futuro. Elegí una paleta cálida con acentos verdes y un diagrama propio para que el contenido se lea con calma y en orden. La estructura usa secciones semánticas, enlaces a fuentes y navegación por teclado; el diseño se adapta a pantallas pequeñas. El diagrama está hecho con HTML y CSS, así que no depende de imágenes externas ni requiere texto alternativo adicional. Usé ChatGPT para proponer una estructura, revisar el código y ayudar a redactar un primer borrador. Después contrasté los datos con la OCDE, NIST, la Agencia Internacional de la Energía y Reuters. Revisé las cifras y fechas en las fuentes, y edité el texto para diferenciar los hechos publicados de mi interpretación y de una proyección energética. También mantuve los ejemplos concretos breves para que el lector pueda seguir los enlaces y ampliar la información. Revisé el código y los enlaces localmente; el acceso del navegador a archivos locales no estuvo disponible en esta sesión, por lo que la comprobación visual final deberá hacerse al abrir el archivo o al publicarlo. La selección final de ejemplos y las conclusiones son responsabilidad de quien presenta este trabajo.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">↗</span> Cuaderno digital</a><span>Aprender a usarla también es parte del futuro.</span><a href="#inicio">Volver arriba ↑</a></footer>
+</body>
+</html>
